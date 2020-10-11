@@ -1,0 +1,22 @@
+{
+  "name": "walidnurudin.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Walidnurudin/Walidnurudin.github.io.git"
+  },
+  "author": "Walid nurudin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Walidnurudin/Walidnurudin.github.io/issues"
+  },
+  "homepage": "https://github.com/Walidnurudin/Walidnurudin.github.io#readme",
+  "dependencies": {
+    "sass": "^1.27.0"
+  }
+}
