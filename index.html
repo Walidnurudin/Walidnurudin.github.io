@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,37 @@
     <title>Walid nurudin</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- navbar -->
-    <nav>
-        <div>Walidnurudin</div>
-        <ul>
-            <li>About</li>
-            <li>Project</li>
-        </ul>
-    </nav>
+    <div>
+        <a href="https://github.com/Walidnurudin" target="_blank"><h1>WALID NURUDIN</h1></a>
+        <p></p>
+    </div>
 
-    <!-- hero -->
-    <div class="hero">WALID NURUDIN</div>
+    <script>
+        console.log("Hi, from Walid")
 
-    <!-- about -->
-    <div class="about">About</div>
+        setInterval(() => {
+            let text = ["Javascript", "Golang", "Nodejs", "Sass", "Firebase", "Html", "Css", "Reactjs", "Vuejs", "Nuxtjs", "Mongodb", "Mysql", "Docker", "Git", "Github", "Gitlab", "Svelte", "React native", "Bootstrap", "Vuetify", "ElementUi", "TailwindCss"]
+            document.querySelector("p").innerHTML = text[Math.floor(Math.random() * text.length)];
+        }, 250)
 
-    <!-- project -->
-    <div class="project">peoject</div>
+        setInterval(() => {
+            let body = document.querySelector('body');
+            let letters = "1234567890ABCDEF";
+            let color = '#'
 
-    <!-- footer -->
-    <footer>Walid nurudin | 2020</footer>
+            function randomColor(param) {
+                for (let i = 0; i < 6; i++) {
+                    param += letters[Math.floor(Math.random() * 16)];
+                }
+                return param;
+            };
+
+            body.style.backgroundColor = randomColor(color);
+
+        }, 1000)
+    </script>
 </body>
+
 </html>

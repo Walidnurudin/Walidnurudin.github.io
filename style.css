@@ -1,28 +1,19 @@
-body {
-  background-color: ghostwhite;
-  padding: 0;
+html, body{
+  height: 100%;
+  width: 100%;
   margin: 0;
-}
-
-/* NAVBAR */
-nav {
+  padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  background-color: blanchedalmond;
+  transition: background-color, 2s;
+}
+
+h1, p {
+  text-decoration: underline;
+  color: black;
+  border: 2px solid black;
   background-color: white;
-  height: 100px;
+  text-align: center;
 }
-nav ul {
-  display: flex;
-}
-nav ul li {
-  list-style: none;
-  margin-left: 20px;
-}
-
-/* HERO */
-/* ABOUT */
-/* PROJECT */
-/* FOOTER */
-
-/*# sourceMappingURL=style.css.map */
